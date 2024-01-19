@@ -1,36 +1,11 @@
 # thr-remote
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a try to control the Yamaha THR amplifier through USB using Web MIDI Api. It's not working at the moment, please be patient.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Sources
 
-## Customize configuration
+This project use knowledge about this page : https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API
+and all the work made here : https://github.com/martinzw/THRII-direct-USB-pedalboard/
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# thr-remote
+The THR MIDI protocol is described here : https://github.com/martinzw/THRII-direct-USB-pedalboard/blob/main/SYSEX_PROTOCOL_THR30II.pdf
